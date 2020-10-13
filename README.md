@@ -1,10 +1,11 @@
 # Visual-simulation-of-process-scheduling
 project in school
 
+--------------------
 This system is completed by visual studio 2017 C#. After the program runs, it needs to 
 input process information and select scheduling method, and finally outputs the results. 
 
-First of all, we need to input three information of the process: process name, arrival time and demand time, and then select process scheduling, 
+First of all, we need to input two information of the process: process name, arrival time and demand time. and then select process scheduling, 
 job scheduling method, and memory size. After input, the main functions of the system are realized, which can be roughly divided into three main modules:
 
 1. It can move the process into the external memory, judge the timing of process scheduling and job scheduling, and complete the framework of the main program
@@ -25,7 +26,7 @@ The status of each process in each unit of time will be displayed in a graphical
 
 此系统用visual studio 2017 C#完成，程序运行后需要输入进程信息与选择调度方法，最后输出结果。
 
-首先需要输入进程三个信息：进程名，到达时间以及需求时间，再是选择进程调度，作业调度的方式，内存的大小。输入完后就是系统的主要功能实现，大致分为三个主要模块：
+首先需要输入进程两个信息：进程名，到达时间以及需求时间。然后是选择进程调度，作业调度的方式和内存的大小。输入完后就是系统的主要功能实现，大致分为三个主要模块：
 
 1. 实现将进程移入外存，以及判断进程调度与作业调度的时机，完成主程序的框架
 
