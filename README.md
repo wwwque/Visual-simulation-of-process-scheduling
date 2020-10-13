@@ -11,13 +11,13 @@ job scheduling method, and memory size. After input, the main functions of the s
 1. It can move the process into the external memory, judge the timing of process scheduling and job scheduling, and complete the framework of the main program
 
 2. Process scheduling:
- -FIFO, select the process with the earliest arrival time in external memory and put it into memory.
- -SJF, select the process that needs the least time in external memory and put it into memory.
- -Hrrn, select the process with the highest response ratio in external memory and put it into memory.
+ - FIFO, select the process with the earliest arrival time in external memory and put it into memory.
+ - SJF, select the process that needs the least time in external memory and put it into memory.
+ - Hrrn, select the process with the highest response ratio in external memory and put it into memory.
 
 3. Job scheduling:
- -FIFO, which executes the process with the earliest arrival time in memory.
- -RR, only execute the process of queue head in memory. When the process in memory executes to a given time slice,
+ - FIFO, which executes the process with the earliest arrival time in memory.
+ - RR, only execute the process of queue head in memory. When the process in memory executes to a given time slice,
  the current process will be blocked and put at the end of the queue, and then the process of queue head will be executed.
 
 The status of each process in each unit of time will be displayed in a graphical interface.
