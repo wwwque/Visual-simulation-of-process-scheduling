@@ -1,4 +1,4 @@
-# Visual-simulation-of-process-scheduling
+# Visual simulation of process-scheduling
 project in school
 
 --------------------
@@ -23,6 +23,8 @@ job scheduling method, and memory size. After input, the main functions of the s
 The status of each process in each unit of time will be displayed in a graphical interface.
 
 ---------------------
+
+# 可视化进程调度
 
 此系统用visual studio 2017 C#完成，程序运行后需要输入进程信息与选择调度方法，最后输出结果。
 
