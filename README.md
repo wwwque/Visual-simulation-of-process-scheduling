@@ -1,7 +1,6 @@
 # Visual simulation of process-scheduling
 project in school
 
---------------------
 This system is completed by visual studio 2017 C#. After the program runs, it needs to 
 input process information and select scheduling method, and finally outputs the results. 
 
